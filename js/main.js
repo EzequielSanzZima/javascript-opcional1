@@ -27,7 +27,7 @@ while(menu != 'ESC'){
                 let multipliacion1 = parseInt(prompt('Ingrese el primer numero para multiplicar'));
                 let multiplicacion2 = parseInt(prompt('Ingrese el segundo numero para multiplicar'));
                 const resultadoMultiplicacion = multipliacion1 * multiplicacion2
-                let textoMultiplicacion = 'La multiplicacion ' + multipliacion1 + ' * ' + multiplicacion2 + ' = ' + resultadoMultiplicacion
+                let textoMultiplicacion = 'La multiplicacion de ' + multipliacion1 + ' * ' + multiplicacion2 + ' = ' + resultadoMultiplicacion
                 alert(textoMultiplicacion);
                 break;
         case "5":
