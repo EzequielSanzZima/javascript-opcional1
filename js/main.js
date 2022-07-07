@@ -39,7 +39,7 @@ while(menu != 'ESC'){
                 }
                 break;
         default:
-            alert('Numero incorrecto');
+            alert('Ingresa un numero de 1 a 5.');
             break;
     }
     menu = prompt('Ingrese un numero para continuar: \n -1: Suma \n -2: Resta \n -3: Division \n -4: Multiplicar \n -5: Tabla de multiplicacion');
