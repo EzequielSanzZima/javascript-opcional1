@@ -6,7 +6,7 @@ while(menu != 'ESC'){
                 let suma1 = parseInt(prompt('Ingrese el primer numero de suma'));
                 let suma2 = parseInt(prompt('Ingrese el segundo numero de suma'));
                 const resultadoSuma = suma1 + suma2
-                let textoSuma = 'La suma de ' + suma1 + ' - ' + suma2 + ' = ' + resultadoSuma 
+                let textoSuma = 'La suma de ' + suma1 + ' + ' + suma2 + ' = ' + resultadoSuma 
                 alert(textoSuma);
                 break;
         case "2":
