@@ -1,4 +1,29 @@
-let menu = prompt('Ingrese un numero para continuar: \n -1: Suma \n -2: Resta \n -3: Division \n -4: Multiplicar \n -5: Tabla de multiplicacion');
+//Ejemplo 1
+
+/* alert('Ingrese primero un numero que quieras.\nSegundo el limite que va a sumar.')
+let numero = parseInt(prompt('Ingrese un numero para ser sumado'));
+let limite = parseInt(prompt('Ingresa el limite que sume el numero'));
+for(let i=0; i<limite; i++){
+        let resultadoEj1 = numero + i
+        console.log(numero);
+        alert(resultadoEj1)
+}
+ */
+
+//Ejemplo 2
+
+/* alert('Ingrese ESC para salir')
+let palabra= prompt('Ingrese la primera palabra');
+
+while (palabra != 'ESC' || palabra != 'esc'){
+        let palabra1 = prompt('Ingrese la segunda palabra: ');
+        let frase = palabra + ' ' + palabra1
+        alert(frase);
+        console.log(frase);
+        break;
+} */
+
+/* let menu = prompt('Ingrese un numero para continuar: \n -1: Suma \n -2: Resta \n -3: Division \n -4: Multiplicar \n -5: Tabla de multiplicacion');
 
 while(menu != 'ESC'){
     switch (menu){
@@ -43,4 +68,4 @@ while(menu != 'ESC'){
             break;
     }
     menu = prompt('Ingrese un numero para continuar: \n -1: Suma \n -2: Resta \n -3: Division \n -4: Multiplicar \n -5: Tabla de multiplicacion');
-}
+} */
